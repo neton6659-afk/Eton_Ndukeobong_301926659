@@ -1,7 +1,13 @@
-# Ndukeobong Eton — MIT 8103
+# Airline Reservation System
 
-Student ID: 301926659
+Ndukeobong Eton · Student ID 301926659
 
-Airline Reservation System
+The portfolio uses fictional records for Airline Reservation System.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Eton_Ndukeobong_301926659_FinalSummary.md) · [PDF](Eton_Ndukeobong_301926659_FinalSummary.pdf)
