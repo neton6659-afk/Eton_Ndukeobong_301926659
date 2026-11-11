@@ -29,7 +29,7 @@ Figure 1. Tables, keys and relationships. PK: primary key; FK: foreign key; UK: 
 
 ## Portfolio 2: Query Processing and Optimisation
 
-I ran three SQL queries against the sample records. The join returned 2 rows and included Avery Stone with SW101. For the index comparison, I used 20,000 separate performance rows. The median lookup time changed from 1.145 ms to 0.172 ms. Both phases returned the same records. The measured plan used the new index. These timings apply to this lookup and environment.
+I ran three SQL queries against the sample records. The join returned 2 rows and included Avery Stone with SW101. For the index comparison, I used 20,000 separate performance rows. The median lookup time changed from 1.145 ms (non-indexed) to 0.172 ms (indexed). Both phases returned the same records. The measured plan used the new index. These temporal data applies to this lookup and environment.
 
 ## Portfolio 3: Transactions and Concurrency
 
