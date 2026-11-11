@@ -55,7 +55,15 @@ I proposed three MongoDB replica members across separate failure zones. The disc
 ## Individual reflection
 
 I kept flight, passenger, reservation in separate tables so their details could be maintained without repeating them in every related record. Among reservations with status confirmed and a non-null seat_number, each flight_id and seat_number pair is unique. The constraint tests check this alongside the required values and record links. One issue illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
-
+On a personal note, this repo is teaching a complete database story:
+1.	Design the schema correctly -Design and modelling
+2.	Build valid relationships and constraints
+3.	Query the data - Query processing
+4.	Optimise query speed - Optimisation
+5.	Handle multiple users at once - concurrency
+6.	Support event-driven data in MongoDB
+7.	Think about distributed systems and fault tolerance - distributed and cloud DB
+So the project is not just “SQL queries”. It is a full learning journey through database systems, which is very enlightening.
 ## AI-use declaration
 
 I used GitHub Copilot and the portfolio generator to help prepare the database model, scripts and explanations. The generator ran the PostgreSQL and MongoDB exercises, checked their outputs and captured the result images.  I remain responsible for checking and explaining the submitted work.
