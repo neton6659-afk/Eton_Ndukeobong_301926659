@@ -8,6 +8,6 @@ The portfolio uses fictional records for Airline Reservation System.
 - [Portfolio 2](portfolio-2-query-optimisation/)
 - [Portfolio 3](portfolio-3-transactions-concurrency/)
 - [Portfolio 4](portfolio-4-nosql/)
-- [Portfolio 5](portfolio-5-distributed-cloud/)
+- [Distributed cloud](portfolio-5-distributed-cloud/)
 
 [Final summary](Eton_Ndukeobong_301926659_FinalSummary.md) · [PDF](Eton_Ndukeobong_301926659_FinalSummary.pdf)
