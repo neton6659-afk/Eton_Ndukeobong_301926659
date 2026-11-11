@@ -9,15 +9,15 @@ My case study is Airline Reservation System. I designed the database for passeng
 ## Portfolio 1: Database Design and Modelling
 
 The goal is to represent three things: flights, passengers, and reservations. The design keeps each kind of information in its own table, then connects them with IDs.
-- •	flight stores one scheduled flight: its number, departure date, route, and seat capacity.
-- •	passenger stores a passenger’s name and email.
-•	reservation records a passenger’s booking for a flight, including when it was booked and its status
+-	flight stores one scheduled flight: its number, departure date, route, and seat capacity.
+- passenger stores a passenger’s name and email.
+-	reservation records a passenger’s booking for a flight, including when it was booked and its status
 The relational design is organised into 3 tables. Primary keys identify records, foreign keys preserve the links, and enforce the stated business rules. 
-•	flight capacity must be greater than 0
-•	flight number and departure date identifies one flight
-•	passenger email must be unique
-•	reservation status: (pending, confirmed, cancelled)
-•	a confirmed seat on a flight cannot be used twice
+-	flight capacity must be greater than 0
+-	flight number and departure date identifies one flight
+-	passenger email must be unique
+	reservation status: (pending, confirmed, cancelled)
+-	a confirmed seat on a flight cannot be used twice
 
 The normalisation examples show the sample data at 1NF, 2NF and 3NF. All 11 deliberately invalid inserts were rejected without changing the valid sample rows.
 
