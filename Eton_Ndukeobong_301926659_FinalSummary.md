@@ -78,4 +78,5 @@ I used GitHub Copilot and the portfolio generator to help prepare the database m
 - [MongoDB: replication](https://www.mongodb.com/docs/manual/replication/)
 - [MongoDB: sharding](https://www.mongodb.com/docs/manual/sharding/)
 - [Mermaid: ER diagrams](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+- [W3schools: SQL](https://www.w3schools.com/sql/default.asp)
 
